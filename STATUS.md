@@ -8,7 +8,7 @@ Stand: 2026-10-17. Die Angaben stammen aus der Hub-Doku (Statusstand 13.10., Erg
 
 ## Offen
 1. **Cron für nächtliche Backups ist nicht gesetzt**: Die Änderung an der Crontab wurde von der Berechtigungsprüfung blockiert und muss manuell erfolgen.
-2. **Claude-Worker** läuft nur als Hintergrundprozess, die systemd-Unit liegt bereit, ist aber nicht aktiviert.
+2. ~~Claude-Worker nur als Hintergrundprozess~~ erledigt: Der Worker läuft und ist per systemd aktiviert (geprüft am 18.10.).
 3. **Lokaler Benchmark** abgebrochen, „Lokal-Check“ und Schwellen sind leer.
 4. **Festes UI-Token** im LAN-Hub ist schwach (nur LAN/VPN).
 5. **Mobiltest** der Autopilot-Seite fehlt (nur Syntaxprüfung und API getestet).
